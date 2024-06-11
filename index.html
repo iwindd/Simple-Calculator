@@ -3,37 +3,47 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="./style.css">
 		<title>Calculator</title>
 	</head>
 	<body>
-		<div>
+		<div class="container">
 			<header>
 				<h1>Calculator</h1>
 			</header>
-			<section>
-				display
-			</section>
+			<article>
+				<p>0</p>
+			</article>
 			<main>
-				<button type="button">1</button>
-				<button type="button">2</button>
-				<button type="button">3</button>
-				<button type="button">4</button>
-				<button type="button">5</button>
-				<button type="button">6</button>
-				<button type="button">7</button>
-				<button type="button">8</button>
-				<button type="button">9</button>
-				<button type="button">0</button>
-
-				<button type="button">C</button>
-				<button type="button">backspace</button>
-				<button type="button">/</button>
-				<button type="button">*</button>
-				<button type="button">-</button>
-				<button type="button">+</button>
-				<button type="button">=</button>
-				<button type="button">.</button>
-				<button type="button">+/-</button>
+				<section>
+					<button class="btn secondary" type="button">AC</button>
+					<button class="btn secondary" type="button">+/-</button>
+					<button class="btn secondary" type="button">%</button>
+					<button class="btn primary" type="button">/</button>
+				</section>
+				<section>
+					<button class="btn" type="button">7</button>
+					<button class="btn" type="button">8</button>
+					<button class="btn" type="button">9</button>
+					<button class="btn primary" type="button">*</button>
+				</section>
+				<section>
+					<button class="btn" type="button">4</button>
+					<button class="btn" type="button">5</button>
+					<button class="btn" type="button">6</button>
+					<button class="btn primary" type="button">-</button>
+				</section>
+				<section>
+					<button class="btn" type="button">1</button>
+					<button class="btn" type="button">2</button>
+					<button class="btn" type="button">3</button>
+					<button class="btn primary" type="button">+</button>
+				</section>
+				<section>
+					<button class="btn" type="button">0</button>
+					<button class="btn" type="button">.</button>
+					<button class="btn primary" type="button">=</button>
+				</section>
 			</main>
 		</div>
 	</body>

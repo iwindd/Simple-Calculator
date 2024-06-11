@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #3c3a3a;
+}
+
+h1{
+    color: white;
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    padding: 1.5em;
+    border-radius: 1em;
+    box-shadow: 1px 0px 39px -11px rgba(0,0,0,0.75);
+}
+
+article{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 60px;
+    margin: 1em 0px;
+    padding-right: 1px;
+}
+
+article > p{
+    font-size: 40px;
+    color: white;
+}
+
+section{
+    margin-bottom: 0.25em;
+}
+
+.btn{
+    border: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 25px;
+    transition: filter 0.1s ease;
+}
+
+.btn:hover{
+    filter: brightness(75%);
+}
+
+.btn:active{
+    filter: brightness(50%);
+}
+
+.btn.primary{
+    background-color: rgb(20, 195, 137);
+    color: white;
+}
+
+.btn.secondary{
+    background-color: rgb(188, 209, 202);
+}
